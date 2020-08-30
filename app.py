@@ -7,8 +7,6 @@ import speech_recognition as sr
 
 
 def recognize_speech_from_mic(recognizer, microphone):
-    recognizer = sr.Recognizer()
-    microphone = sr.Microphone()
 
     if not isinstance(recognizer, sr.Recognizer):
         raise TypeError("`recognizer` must be `Recognizer` instance")
@@ -57,7 +55,7 @@ def transcript():
     recognizer = sr.Recognizer()
     microphone = sr.Microphone()
     print("Say something: ")
-    time.sleep(5000)
+    #time.sleep(5000)
     guess = recognize_speech_from_mic(recognizer, microphone)
     return guess["transcription"]
 
