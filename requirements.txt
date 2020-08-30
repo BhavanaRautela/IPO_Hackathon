@@ -12,8 +12,8 @@ Js2Py==0.70
 MarkupSafe==1.1.1
 numpy==1.18.5
 packaging==20.4
+python==3.5.6
 pipwin==0.5.0
-PyAudio==0.2.11
 pyjsparser==2.7.1
 pyparsing==2.4.7
 PyPrind==2.11.2
