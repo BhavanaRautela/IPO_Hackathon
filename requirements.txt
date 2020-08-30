@@ -6,11 +6,7 @@ click==7.1.2
 colorama==0.4.3
 comtypes==1.1.7
 cycler==0.10.0
-Django==2.2.15
 et-xmlfile==1.0.1
-ffmpeg==1.4
-ffmpeg-normalize==1.20.1
-ffmpeg-python==0.2.0
 Flask==1.1.2
 Flask-HTTPAuth==4.1.0
 Flask-RESTful==0.3.8
@@ -30,7 +26,6 @@ plotly==4.9.0
 posts==0.2.2
 PyAudio==0.2.11
 pydub==0.24.1
-pygal==2.4.0
 pyparsing==2.4.7
 pypiwin32==223
 python-dateutil==2.8.1
