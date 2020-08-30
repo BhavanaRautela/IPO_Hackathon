@@ -89,5 +89,5 @@ def transcript():
 # private = PrivateResource()
 # api.add_resource(PrivateResource, '/private')
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     app.run(debug=True)
