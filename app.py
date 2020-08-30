@@ -1,7 +1,7 @@
-from datetime import time
-from flask_restful import Resource, Api
-from flask_httpauth import HTTPBasicAuth
-import win32security
+# from datetime import time
+# from flask_restful import Resource, Api
+# from flask_httpauth import HTTPBasicAuth
+# import win32security
 from flask import Flask
 import speech_recognition as sr
 
@@ -40,8 +40,8 @@ def recognize_speech_from_mic(recognizer, microphone):
 
 app = Flask(__name__)
 # run_with_ngrok(app)
-api = Api(app, prefix="/api/v1")
-auth = HTTPBasicAuth()
+# api = Api(app, prefix="/api/v1")
+# auth = HTTPBasicAuth()
 
 
 @app.route('/', methods=['GET'])
